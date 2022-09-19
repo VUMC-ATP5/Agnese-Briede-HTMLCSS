@@ -1,0 +1,49 @@
+body {
+    background-color: bisque;
+}
+
+p {
+    border-style: dotted;
+    color: rgb(8, 8, 8);
+    border-color: rgb(230, 116, 10);
+
+}
+
+h1 {
+    padding-left:40px
+}
+
+a {
+    color: brown;
+}
+
+.futbols {
+    border: 20px;
+    border-color: black;
+}
+
+.redText {
+    color: brown;
+}
+
+#specialButton{
+    color: darkmagenta;
+    background-color: blue;
+}
+
+div.full{
+    min-height: 100px;
+    background-color: rgb(121, 118, 172);
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+div.left{
+    min-height: 50px;
+    color: brown;
+}
+
+div.right{
+    min-height: 50px;
+    color: chartreuse;
+}
