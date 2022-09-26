@@ -9,14 +9,24 @@
 </head>
 <body>
 
+
+
+
+
+    <button id="poga1">NOSPIED POGU</button>
+    <button id="poga2">Skrolle lejaa</button>
+    
+
     <h1>Šī ir mana pirmā mājas lapa, heading 1</h1>
 
     <!--- šādi var aizkomentēt-->
 
+
+
 <p class="PirmaisParagrafs">Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts. <br><br><br> Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.</p>
 
 <h1>Heading1</h1>
-<h2>Heading2</h2>
+<h2 id="heading2">Heading2</h2>
 <h3>Heading3</h3>
 <h4>Heading4</h4>
 <h5>Heading5</h5>
@@ -72,6 +82,29 @@
     <div class="right"></div>
 
 </div>
-
+<button id="poga3">Skrolle augshaa</button>
 </body>
+
+<script>
+    document.getElementById("poga1").onclick=
+    function(){
+        console.log("Hello world Agnese")
+        window.alert("Hello world Agnese")
+        document.getElementById("heading2").innerHTML="MAINIITS NOSAUKUMS";
+    }
+
+    document.getElementById("poga2").onclick=
+    function() {
+       window.scrollTo(0,10000);
+    }
+
+    document.getElementById("poga3").onclick=
+    function() {
+       window.scrollTo(0,0);
+    }
+
+
+
+</script>
+
 </html>
