@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agnese Briede mājas lapa</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+
+    <button id="poga1">NOSPIED POGU</button>
+    <button id="poga2">Skrolle lejaa</button>
+    
+
+    <h1>Šī ir mana pirmā mājas lapa, heading 1</h1>
+
+    <!--- šādi var aizkomentēt-->
+
+
+
+<p class="PirmaisParagrafs">Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts. <br><br><br> Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.Šis ir pirmais teksts.</p>
+
+<h1>Heading1</h1>
+<h2 id="heading2">Heading2</h2>
+<h3>Heading3</h3>
+<h4>Heading4</h4>
+<h5>Heading5</h5>
+<h6>Heading6</h6>
+
+<p>Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule. Ārā spīd saule. <strong>Ārā spīd saule.</strong> Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.Ārā spīd saule.</p>
+
+<a href="https://www.lu.lv/" target="_blank"> Links uz edu.lu.lv </a>
+
+<br>
+<br>
+
+<img src="https://previews.123rf.com/images/1xpert/1xpert1504/1xpert150400297/39057635-earth-globe-elements-of-this-image-furnished.jpg" width="20%" alt="Globe">
+
+<br>
+
+<!--Ablosute path -->
+
+<img src="C:\Users\Agnese\Documents\GitHub\Agnese-Briede-HTMLCSS\img\30714208_1834776493239151_6823806961432133632_n.jpg">
+<br>
+<!--Relative path-->
+<img class="futbols" src="img\30714208_1834776493239151_6823806961432133632_n.jpg">
+<br>
+<a href="mailto:briedeagnes@gmail.com">epasts</a>
+
+<br>
+<!--Nesakaartots sarakts -->
+<h3>Iepirkumu sarakts</h3>
+
+<ul>
+<li>Maize</li>
+<li class="redText">Piens</li>
+<li>Olas</li>
+</ul>
+
+<h3>Meneshu kalendars</h3>
+<ol>
+<li>Jan</li>
+<li class="redText">Feb</li>
+<li>Mar</li>
+</ol>
+
+<button id="specialButton">Spied mani!</button>
+
+<br>
+
+<button id="specialButton1">Spied mani!</button>
+
+<div class="full">
+
+    <div class="left"></div>
+    
+    <div class="right"></div>
+
+</div>
+<button id="poga3">Skrolle augshaa</button>
+
+
+
+
+
+</body>
+
+<script>
+    document.getElementById("poga1").onclick=
+    function(){
+        console.log("Hello world Agnese")
+        window.alert("Hello world Agnese")
+        document.getElementById("heading2").innerHTML="MAINIITS NOSAUKUMS";
+    }
+
+    document.getElementById("poga2").onclick=
+    function() {
+       window.scrollTo(0,10000);
+    }
+
+    document.getElementById("poga3").onclick=
+    function() {
+       window.scrollTo(0,0);
+    }
+
+
+
+</script>
+
+</html>
