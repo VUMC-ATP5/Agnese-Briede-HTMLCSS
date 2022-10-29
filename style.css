@@ -44,9 +44,10 @@ div.left{
 }
 
 div.right{
-    min-height: 40px;
+    min-height: 400px;
     background-color: chartreuse;
 }
+
 
 .personal{
 
@@ -60,23 +61,23 @@ div.right{
 }
 
 .work{
+    padding: 10px;
     min-width: 75%;
     background-color: bisque;
 }
 
 .edu{
-
+    padding: 10px;
     min-width: 75%;
     background-color: blanchedalmond;
 }
 
 .me{
-    width: 100%;
-    height: 100%;
+    padding-left: 10px;
+    max-width: 50%;
 }
 
-.all{
-    background-color: cornsilk;
+.all{    background-color: cornsilk;
     padding: 80px;
 }
 
@@ -86,11 +87,22 @@ ul{
 }
 
 .hobbies{
+    padding: 10px;
     min-width: 75%;
     background-color: rgb(238, 190, 119);
 }
 
 .l{
     display:block;
-    padding: 10px 50px 30px 0;
+    padding: 10px 10px 10px 0;
+    padding-right: 0%;
 }
+
+
+
+ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
