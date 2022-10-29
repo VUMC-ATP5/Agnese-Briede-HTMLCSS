@@ -2,6 +2,7 @@
 ## Šī ir versija 2, kas atrodas tikai otrajā zarā
 Šis tiks papildināts vēlāk
 # Šis būs stāsts par to kā Agnese iepazinās ar galda futbolu 
+
 ## Īsi un kodolīgi
 Galda futbolu sāku spēlēt, kad bāros vienkārši aliņus dzert, palika garlaicīgi. Vēlējos kaut ko paralēli darīt, lai vakars būtu interesantāks. Atceros pašu dienu, kad tas notika, bet ne datumu, šķiet tas bija rudens. Es ar draudzeni aizgājām uz Space Dog bāru, netālu no Baltajiem Krekliem. Mazās, šaurās telpas sienas galā bija futbola galds, visticamāk, «Garlando» galds, ar kuru es pirmo reizi spēlēju šo burvīgo spēli. 
 
@@ -13,3 +14,6 @@ Aussie es iepazinos ar daudziem galda futbola spēlētājiem, arī pat ar tādie
 ![bildīte no pasaules turnīra](https://scontent.frix9-1.fna.fbcdn.net/v/t1.6435-9/30714208_1834776493239151_6823806961432133632_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=19026a&_nc_ohc=1crE1nVEKTsAX-VpxXJ&_nc_ht=scontent.frix9-1.fna&oh=00_AT8s2gQylBxIBYt5hjtJesE5hPrNXDo7o0VD346qlKqUEA&oe=63487212) 
 
 
+# CV
+
+## Šajā repozitorijā atrodas mans CV mājas darbs
